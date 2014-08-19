@@ -30,7 +30,7 @@ if [ -z "$JAVAPID" ]
   return 1
 fi
 
-  return 0 #Retorna sucesso, se ambos testes acima forem verdadeiros
+  return 0 
 }
 
 messages_running() {
