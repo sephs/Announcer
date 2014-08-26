@@ -17,9 +17,10 @@ Crie um arquivo msg.txt - nele serão adcionados as mensagens por linha que voc�
 
 Aplique para todos chmod a+x
 
-Crie um link simbolico do arquivo princ.sh para /etc/init.d/mensagens
+Crie um link simbolico:
+ln -s /path/princ.sh /etc/init.d/mensagens
 
-Caso seu servidor utilizei um script de inicialização só iniciar os comandos a seguir
+Caso seu servidor utilize um script de inicialização só iniciar os comandos a seguir
 
 /etc/init.d/mensagens stop - Para quando for reiniciar, ele parar o server
 
