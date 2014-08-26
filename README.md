@@ -15,13 +15,10 @@ Na mesma pasta que for colocar os arquivos:
 
 1) Edite o arquivo princ.sh, na area de configurações:
 
-# Nome da screen que ira rodar o BungeeCord/Craft/Spigot
-SCRNAME="bc"
-SERVICE="BungeeCord.jar" # Pode ser Craftbukkit, Spigot, BungeeCord
-# Pasta onde ira estar os arquivos msg.txt/princ.sh/sec.sh
-MSGPATH="/root/mensagens"
-# Nome da screen que ira rodar o loop do sistema de mensagens
-MSGNAME="MSG"
+SCRNAME="bc" - Nome da screen que ira rodar o BungeeCord/Craft/Spigot
+SERVICE="BungeeCord.jar" - Pode ser Craftbukkit, Spigot, BungeeCord
+MSGPATH="/root/mensagens" - Pasta onde ira estar os arquivos msg.txt/princ.sh/sec.sh
+MSGNAME="MSG" - Nome da screen que ira rodar o loop do sistema de mensagens
 
 2) Crie um arquivo msg.txt - nele serão adcionados as mensagens por linha que você deseja exibir em seu servidor
 
